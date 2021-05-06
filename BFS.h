@@ -16,5 +16,4 @@ struct BFS_RES {
 };
 
 BFS_RES BFS(Graph G, int s);
-
 #endif //GRAPHS_BFS_H

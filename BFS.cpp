@@ -29,6 +29,5 @@ BFS_RES BFS(Graph G, int s) {
         Q.pop();
         color[u] = BLACK;
     }
-
     return {d, pi};
 }

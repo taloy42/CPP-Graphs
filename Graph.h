@@ -22,7 +22,6 @@ public:
     void clique();
 
     void printEdges(int i);
-
     void printGraph();
 
     int size() const;
