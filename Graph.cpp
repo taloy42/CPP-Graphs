@@ -17,7 +17,6 @@ std::vector<int> Graph::getNeighbourhoodOfV(int v) {
 bool Graph::isEdgeInGraph(int u, int v) {
     return std::count(edges[u].begin(), edges[u].end(), v) > 0;
 }
-
 void Graph::clear() {
     for (int i = 0; i < n; ++i) {
         edges[i].clear();
